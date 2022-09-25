@@ -10,7 +10,8 @@ export const BoxContainer = (props) => {
         alignItems: "center",
         my: 2,
         borderRadius: 2,
-        boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px"
+        boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
+        ...props.sx
       }}
     >
       {props.children}
