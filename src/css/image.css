@@ -1,0 +1,11 @@
+.image-item {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 8px;
+  border-radius: 1px;
+  width: 100% !important;
+}
+
+.image-item:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: transform 0.3s ease-out;
+}
